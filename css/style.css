@@ -1,0 +1,53 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url(../img/Mother-day2.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    font-family: 'Pacifico', cursive;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: rgb(48, 213, 158);
+    animation: scale 1s;
+}
+
+.titel {
+    margin-top: 0px;
+    font-size: 50px;
+
+}
+
+.poem {
+    font-size: 30px;
+    color: rgb(48, 213, 158);
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
